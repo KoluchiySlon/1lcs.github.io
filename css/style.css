@@ -41,7 +41,7 @@ header{
 .header-left {
 	font-family: 'Zen Dots', cursive;
 	font-size: 2em;
-
+	white-space: nowrap;
 
 }
 .header-center ul {
