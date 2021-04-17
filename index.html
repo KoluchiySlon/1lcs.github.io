@@ -2,24 +2,63 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 </head>
-
 <body>
 	<audio  autoplay  autobuffer preload="auto">
 		<source src="http://ic7.101.ru:8000/a260"/>
 		<source src="http://air2.radiorecord.ru:9003/lofi_320"/>
 	</audio>
-	<div class="wrapper">
-		<a href="mailto://web@1lcs.ru">
-			<i class="fa fa-envelope  fa-inverse" aria-hidden="true"></i>
-		</a>
-		
-
-	</div>
+    <div class="container">
+        <h1 class="maint">Контактная форма</h1>
+        <div class="section animated bounceInLeft">
+            <div class="brandname">
+		    	<audio  autoplay controls autobuffer preload="auto">
+		<source src="http://ic7.101.ru:8000/a260"/>
+		<source src="http://air2.radiorecord.ru:9003/lofi_320"/>
+	</audio>
+                <h3>WEB DEV TRICK</h3>
+                <ul>
+                    <li> +91 1234567890</li>
+                    <li>contact@webdevtrick.com</li>
+                    <li>webdevtrick.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Email Me</h3>
+                <form action="#">
+                    <p>
+                        <label for="#">Name</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label for="#">Company</label>
+                        <input type="text" name="company">
+                    </p>
+                    <p>
+                        <label for="#">Email Address</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label for="#">Phone Number</label>
+                        <input type="text" name="phone">
+                    </p>
+                    <p class="full">
+                        <label for="#">Message</label>
+                        <textarea name="message" cols="30" rows="5"></textarea>
+                    </p>
+                    <p class="full">
+                        <button>Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
