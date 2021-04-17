@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+background-image: url(../bacground.gif);      
+background-position: center center;      
+background-repeat: no-repeat;      
+background-attachment: fixed;      
+background-size: cover;      
+background-color: #464646; }
+	height: 100%;
+}
+
+
